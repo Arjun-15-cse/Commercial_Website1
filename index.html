@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Groove & Co. — Records, Turntables & Rare Pressings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <nav class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-mark">●</span>
+      <span class="logo-text">GROOVE<span class="logo-amp">&amp;</span>CO.</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#catalog">Catalog</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#account" class="nav-account">Account</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HOME / HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Est. crate-digging since forever</p>
+        <h1>Every record<br>has a groove.<br><span class="accent">Find yours.</span></h1>
+        <p class="hero-sub">Hand-picked vinyl, restored turntables, and first pressings sourced from record shops on three continents. No streaming. No shuffle. Just the drop of a needle.</p>
+        <div class="hero-actions">
+          <a href="#catalog" class="btn btn-primary">Browse the Catalog</a>
+          <a href="#about" class="btn btn-ghost">Our Story</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="tonearm"></div>
+        <div class="vinyl">
+          <div class="vinyl-label">
+            <span>GROOVE&amp;CO</span>
+            <span class="vinyl-rpm">33⅓</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue">Side A — scroll down ↓</div>
+  </section>
+
+  <!-- ============ PRODUCTS / SERVICES ============ -->
+  <section id="catalog" class="catalog">
+    <div class="section-head">
+      <p class="eyebrow">The Catalog</p>
+      <h2>What's spinning this week</h2>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="product-disc disc-amber">
+          <img src="https://picsum.photos/seed/groove-soul/500/500" alt="Midnight Static LP" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="track-no">01</span>
+          <div>
+            <h3>Midnight Static <span class="tag">LP</span></h3>
+            <p class="product-meta">Analog Dreamers · Soul / Funk</p>
+            <p class="price">$34.00</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-disc disc-teal">
+          <img src="https://picsum.photos/seed/groove-indie/500/500" alt="Coastline Echoes LP" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="track-no">02</span>
+          <div>
+            <h3>Coastline Echoes <span class="tag">180g</span></h3>
+            <p class="product-meta">The Harbor Lights · Indie</p>
+            <p class="price">$28.50</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-disc disc-rust">
+          <img src="https://picsum.photos/seed/groove-jazz/500/500" alt="Belltower Sessions LP" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="track-no">03</span>
+          <div>
+            <h3>Belltower Sessions <span class="tag">Reissue</span></h3>
+            <p class="product-meta">Marguerite Cole · Jazz</p>
+            <p class="price">$42.00</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-disc disc-cream">
+          <img src="https://picsum.photos/seed/groove-ambient/500/500" alt="Field Recordings Vol. 2 LP" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="track-no">04</span>
+          <div>
+            <h3>Field Recordings Vol. 2</h3>
+            <p class="product-meta">Various Artists · Ambient</p>
+            <p class="price">$31.00</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card-service">
+        <div class="product-disc disc-service">
+          <img src="https://picsum.photos/seed/groove-repair/500/500" alt="Turntable restoration service" loading="lazy">
+          <span class="disc-icon">🔧</span>
+        </div>
+        <div class="product-info">
+          <span class="track-no">05</span>
+          <div>
+            <h3>Turntable Restoration</h3>
+            <p class="product-meta">Service · Belt, cartridge &amp; calibration</p>
+            <p class="price">From $65.00</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card product-card-service">
+        <div class="product-disc disc-service">
+          <img src="https://picsum.photos/seed/groove-subscription/500/500" alt="Monthly crate subscription" loading="lazy">
+          <span class="disc-icon">📦</span>
+        </div>
+        <div class="product-info">
+          <span class="track-no">06</span>
+          <div>
+            <h3>Monthly Crate Subscription</h3>
+            <p class="product-meta">Service · 2 curated records / month</p>
+            <p class="price">$49.00/mo</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT US ============ -->
+  <section id="about" class="about">
+    <div class="about-visual" aria-hidden="true">
+      <div class="crate">
+        <div class="crate-record r1"></div>
+        <div class="crate-record r2"></div>
+        <div class="crate-record r3"></div>
+        <div class="crate-record r4"></div>
+      </div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow">Side B — Our Story</p>
+      <h2>Started in a garage. Still run like one.</h2>
+      <p>Groove &amp; Co. began as a folding table at a Sunday flea market — a hundred records, a borrowed extension cord, and a portable player nobody could turn off. Fifteen years later we still buy the way we started: crate by crate, from estate sales, closing shops, and collectors who trust us to give their records a second life.</p>
+      <p>Every sleeve is inspected by hand. Every turntable that leaves our bench has been played before it's packed. We're not chasing scale — we're chasing the right copy of the right pressing for the right listener.</p>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">40,000+</span><span class="stat-label">records graded &amp; sold</span></div>
+        <div class="stat"><span class="stat-num">15 yrs</span><span class="stat-label">in the crates</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">shop locations</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="section-head">
+      <p class="eyebrow">Get In Touch</p>
+      <h2>Come dig through the crates</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="info-block">
+          <h4>Visit</h4>
+          <p>142 Warehouse Row<br>Portland, OR 97209</p>
+        </div>
+        <div class="info-block">
+          <h4>Hours</h4>
+          <p>Tue–Sat, 11am – 7pm<br>Sun, 12pm – 5pm</p>
+        </div>
+        <div class="info-block">
+          <h4>Reach Us</h4>
+          <p>hello@grooveandco.shop<br>(503) 555-0199</p>
+        </div>
+      </div>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Looking for a specific pressing?"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ USER ACCOUNT ============ -->
+  <section id="account" class="account">
+    <div class="account-card">
+      <p class="eyebrow">Your Collection</p>
+      <h2>Sign in to your crate</h2>
+      <p class="account-sub">Track orders, save records to your wantlist, and get first access to restocks.</p>
+      <form class="account-form">
+        <label for="acc-email">Email</label>
+        <input type="email" id="acc-email" placeholder="you@example.com">
+        <label for="acc-pass">Password</label>
+        <input type="password" id="acc-pass" placeholder="••••••••">
+        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+        <p class="account-alt">New here? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="logo-mark">●</span>
+      <span class="logo-text">GROOVE<span class="logo-amp">&amp;</span>CO.</span>
+      <p>Records worth keeping.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <a href="#catalog">New Arrivals</a>
+        <a href="#catalog">Turntables</a>
+        <a href="#catalog">Services</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#account">Account</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <h5>Follow the Needle</h5>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="X / Twitter">X</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Groove &amp; Co. All rights reserved.</p>
+    <p>Made with care, one groove at a time.</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.remove('open');
+    });
+  });
+</script>
+</body>
+</html>
